@@ -1,95 +1,96 @@
 const perguntas = [
     {
-      pergunta: "Qual é a linguagem de programação usada para desenvolver aplicativos web?",
+      pergunta: "Qual é a palavra em inglês para 'carro'?",
       respostas: [
-        "Java",
-        "JavaScript",
-        "Python",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "O que é o DOM em JavaScript?",
-      respostas: [
-        "Document Object Model",
-        "Data Object Model",
-        "Dynamic Object Model",
+        "Car",
+        "House",
+        "Vehicle"
       ],
       correta: 0
     },
     {
-      pergunta: "Como você declara uma variável em JavaScript?",
+      pergunta: "Qual é a palavra em inglês para 'casa'?",
       respostas: [
-        "v = 10",
-        "var x = 5",
-        "variavel := 8",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do operador '===' em comparações em JavaScript?",
-      respostas: [
-        "Comparação de valor e tipo",
-        "Comparação de valor apenas",
-        "Comparação de tipo apenas",
+        "Home",
+        "Mouse",
+        "Tree"
       ],
       correta: 0
     },
     {
-      pergunta: "O que é o JSON em JavaScript?",
+      pergunta: "Qual é a palavra em inglês para 'vermelho'?",
       respostas: [
-        "Java Script Object Notation",
-        "JavaScript Oriented Notation",
-        "Java Serialized Object Notation",
+        "Red",
+        "Green",
+        "Blue"
       ],
       correta: 0
     },
     {
-      pergunta: "Como você faz um loop 'for' em JavaScript?",
+      pergunta: "Qual é a palavra em inglês para 'cachorro'?",
       respostas: [
-        "for (i = 0; i < 5; i++)",
-        "loop (i = 0; i < 5; i++)",
-        "while (i < 5)",
+        "Dog",
+        "Cat",
+        "Bird"
       ],
       correta: 0
     },
     {
-      pergunta: "O que é o evento 'click' em JavaScript?",
+      pergunta: "Qual é a palavra em inglês para 'gato'?",
       respostas: [
-        "Um evento de teclado",
-        "Um evento de mouse",
-        "Um evento de carregamento da página",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a finalidade do método 'querySelector' em JavaScript?",
-      respostas: [
-        "Selecionar um elemento pelo ID",
-        "Selecionar um elemento pela classe",
-        "Selecionar um elemento pelo nome",
+        "Cat",
+        "Dog",
+        "Fish"
       ],
       correta: 0
     },
     {
-      pergunta: "O que é o conceito de 'hoisting' em JavaScript?",
+      pergunta: "Qual é a palavra em inglês para 'amarelo'?",
       respostas: [
-        "Elevar elementos na página",
-        "Elevar declarações de variáveis",
-        "Elevar eventos assíncronos",
-      ],
-      correta: 1
-    },
-    {
-      pergunta: "Qual é a função do método 'parseInt' em JavaScript?",
-      respostas: [
-        "Converter uma string para um número inteiro",
-        "Converter um número inteiro para uma string",
-        "Arredondar um número decimal",
+        "Yellow",
+        "Purple",
+        "Orange"
       ],
       correta: 0
     },
+    {
+      pergunta: "Qual é a palavra em inglês para 'azul'?",
+      respostas: [
+        "Blue",
+        "Yellow",
+        "Green"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é a palavra em inglês para 'maçã'?",
+      respostas: [
+        "Apple",
+        "Banana",
+        "Orange"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é a palavra em inglês para 'bicicleta'?",
+      respostas: [
+        "Bicycle",
+        "Car",
+        "Train"
+      ],
+      correta: 0
+    },
+    {
+      pergunta: "Qual é a palavra em inglês para 'sol'?",
+      respostas: [
+        "Sun",
+        "Moon",
+        "Star"
+      ],
+      correta: 0
+    }
   ];
+  
   
   
   const quiz = document.querySelector('#quiz')
